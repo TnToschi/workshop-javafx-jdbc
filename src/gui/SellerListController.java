@@ -137,7 +137,7 @@ public class SellerListController implements Initializable, DataChangeListener {
 			Alerts.showAlert("IO Exception", "Error loading view", e.getMessage(), AlertType.ERROR);
 		
 	}
-	}
+	} 
 
 	@Override
 	public void onDataChanged() {
